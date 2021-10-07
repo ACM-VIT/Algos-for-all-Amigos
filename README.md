@@ -100,34 +100,39 @@ Check out our [issues](https://github.com/ACM-VIT/Algos-for-all-Amigos/issues) a
 
 ## Current Topics!
 
-#### Computer Science
+#### Computer Science ([link](./Computer_Science))
 
-📂1_DSA_Fundamentals<br>
-  ┣ 📂1_Sorting_Algorithms<br>
-  ┣ 📂2_Stacks_Queues_Linked_Lists<br>
-  ┗ 📂3_Graphs<br>
+📂1_DSA_Fundamentals ([link](./Computer_Science/1_DSA_Fundamentals/))<br>
+  ┣ 📂1_Sorting_Algorithms ([link](./Computer_Science/1_DSA_Fundamentals/1_Sorting_Algorithms/))<br>
+  ┣ 📂2_Stacks_Queues_Linked_Lists ([link](./Computer_Science/1_DSA_Fundamentals/1_Sorting_Algorithms/))<br>
+  ┗ 📂3_Graphs ([link](./Computer_Science/1_DSA_Fundamentals/3_Graphs/))<br>
 
-📂2_Competitive_Programming<br>
+📂2_Competitive_Programming ([link](./Computer_Science/2_Competitive_Programming/))<br>
  
-📂3_Programming_Languages<br>
-  ┣ 📂C<br>
-  ┗ 📂Python<br>
+📂3_Programming_Languages ([link](./Computer_Science/3_Programming_Languages/))<br>
+  ┣ 📂C ([link](./Computer_Science/3_Programming_Languages/C/))<br>
+  ┣ 📂CPP ([link](./Computer_Science/3_Programming_Languages/CPP/))<br>
+  ┗ 📂Python ([link](./Computer_Science/3_Programming_Languages/Python/))<br>
 
-📂4_Object_Oriented_Programming<br>
+📂4_Object_Oriented_Programming ([link](./Computer_Science/4_Object_Oriented_Programming/))<br>
 
-📂5_Interview_Questions<br>
+📂5_Interview_Questions ([link](./Computer_Science/5_Interview_Questions/))<br>
    
-📂6_Machine_Learning<br>
-   ┗ 📂Classification<br>
+📂6_Machine_Learning ([link](./Computer_Science/6_Machine_Learning/))<br>
+   ┗ 📂Classification ([link](./Computer_Science/6_Machine_Learning/Classification/))<br>
 
-📂7_Assembly_Level_Programming<br>
+📂7_Database_Management_Systems ([link](./Computer_Science/7_Database_Management_Systems/)) <br>
+
+📂8_Assembly_Level_Programming ([link](./Computer_Science/8_Assembly_Level_Programming/)) <br>
+
+📂9_Advanced_Algorithms ([link](./Computer_Science/9_Advanced_Algorithms/)) <br>
 
 <br>
 
-#### Mathematics
+#### Mathematics ([link](./Mathematics/)) <br>
 
-📂Linear Algebra<br>
+📂Linear Algebra ([link](./Mathematics/Linear%20Algebra/))<br>
 
-📂Series<br>
+📂Series ([link](./Mathematics/Series/))<br>
 
 <br>
