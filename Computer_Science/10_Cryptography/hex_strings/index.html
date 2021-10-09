@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexadecimal to ASCII COnverter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="maindiv">
+
+        <div class="card">
+            <h1>Hexadecimal to ASCII Converter</h1>
+            <form id="myapp">
+                <div class="option1">
+
+                    <label>Hexadecimal</label>
+                    <input type="text" id="inputnum" oninput="hex_to_ascii()">
+                </div>
+                <div class="option1">
+                    <label>ASCII</label>
+                    <input type="text" id="output" oninput="ascii_to_hex()">
+                </div>
+
+                <!-- <button type="button" id="bttn" onclick="hex_to_ascii()">Convert</button> -->
+                <button type="reset" id="bttn">Reset</button>
+            </form>
+        </div>
+
+    </div>
+    <script>
+        function hex_to_ascii() {
+            let hex = document.getElementById("inputnum").value;
+            let h = hex.toString();
+            var str = '';
+            for (var n = 0; n < h.length; n += 2) {
+                str += String.fromCharCode(parseInt(hex.substr(n, 2), 16));
+            }
+            console.log(str);
+            document.getElementById("output").value = str;
+        }
+
+        function ascii_to_hex() {
+
+            var str=document.getElementById("output").value;
+            var arr1 = [];
+            for (var n = 0; n < str.length; n++) {
+                var hex = Number(str.charCodeAt(n)).toString(16);
+                arr1.push(hex);
+            }
+            var final= arr1.join('');
+            document.getElementById("inputnum").value=final;
+
+        }
+
+        function reload() {
+            document.getElementById("myapp").reset();
+
+        }
+    </script>
+
+
+
+</body>
+
+</html>
