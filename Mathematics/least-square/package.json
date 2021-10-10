@@ -1,0 +1,17 @@
+{
+  "name": "least-squares-regression",
+  "version": "1.0.0",
+  "description": "Visualize linear least squares",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server-debug": "nodemon --inspect server.js"
+  },
+  
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}

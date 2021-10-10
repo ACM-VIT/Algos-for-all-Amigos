@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Least Squares Regression</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-half">
+        <div class="pairs-style">
+          <div>
+            <input type="number" class="input-x" placeholder="X">
+          </div>
+          <div>
+            <input type="number" class="input-y" placeholder="Y">
+          </div>
+          <button class="btn-update-graph">Add</button> 
+        </div>
+        <div>
+          <span class="span-formula">Formula: Y = a + b * X</span>
+        </div>
+        <div>
+          <table class="table-pairs">
+            <thead>
+              <th>
+                X
+              </th>
+              <th>
+                Y
+              </th>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="right-half">
+        <canvas id="myChart"></canvas>
+      </div>
+    </div>
+    <script src="/least-squares.js"></script>
+  </body>
+</html>
