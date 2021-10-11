@@ -1,0 +1,32 @@
+.container {
+  display: grid; 
+}
+
+.left-half {
+  grid-column: 1;
+}
+
+.right-half {
+  grid-column: 2;
+}
+
+.pairs-style input[type="number"],
+.pairs-style button {
+  margin: 5px 0px;
+}
+
+.table-pairs {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-pairs td {
+  text-align: center;
+}
+
+.table-pairs,
+.table-pairs th,
+.table-pairs td {
+  margin: 10px 0px;
+  border: 1px solid black;
+}
